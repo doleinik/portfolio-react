@@ -22,8 +22,10 @@ const About = () => {
                     <Info/>
 
                     <p className="about__description">
-                        Frontend developer, I create web pages with UI / UX user interface, I have years of experience
-                        and many clients are happy with the projects carried out.
+                        My name is Dima, I'm 24 years old.
+                        Very purposeful and in a short time, thanks to his personal and professional qualities, he was
+                        able to achieve a good result, and I strive to learn more and more new technologies and develop
+                        in this.
                     </p>
 
                     <a download='' href={CV} className="button button--flex">
