@@ -1,3 +1,7 @@
+.skills .container {
+    max-width: 1350px;
+}
+
 .skills__container {
     display: flex;
     flex-wrap: wrap;
