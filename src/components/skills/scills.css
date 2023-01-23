@@ -1,7 +1,9 @@
 .skills__container {
-    grid-template-columns: repeat(2, 350px);
+    display: flex;
+    flex-wrap: wrap;
     column-gap: 3rem;
     justify-content: center;
+    width: fit-content;
 }
 
 .skills__content {
@@ -9,6 +11,8 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 2rem 4rem;
     border-radius: 1.25rem;
+    width: 100%;
+    max-width: 400px;
 }
 
 .skills__title {

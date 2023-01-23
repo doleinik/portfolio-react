@@ -2,6 +2,7 @@ import React from "react";
 import './scills.css';
 import Frontend from "./Frontend";
 import Backend from './Backend'
+import WordPress from './WordPress'
 
 const Skills = () => {
     return(
@@ -17,6 +18,7 @@ const Skills = () => {
            <div className="skills__container container grid">
                 <Frontend/>
                 <Backend/>
+                <WordPress/>
            </div>
        </section>
     )

@@ -136,10 +136,11 @@ img {
 
 /*=============== LAYOUT ===============*/
 .container {
+    width: 100%;
     max-width: 1230px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 15px;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    padding: 0 15px!important;
 }
 
 .grid {
@@ -173,11 +174,6 @@ img {
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
-    .container {
-        margin-left: var(--mb-1-5);
-        margin-right: var(--mb-1-5);
-        padding: 0;
-    }
 
     .button {
         padding: 1rem 1.75rem;
@@ -204,17 +200,9 @@ img {
     }
 }
 
-@media screen and (max-width: 576px) {
-}
-
 /* For small devices */
 @media screen and (max-width: 350px) {
     :root {
         --big-font-size: 2.25rem;
-    }
-
-    .container {
-        margin-left: var(--mb-1);
-        margin-right: var(--mb-1);
     }
 }

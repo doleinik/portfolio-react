@@ -168,10 +168,6 @@ h3.portfolio__title {
         padding: 0 15px;
         margin: 0 auto;
     }
-
-    .portfolio__list {
-        padding: 0 15px;
-    }
 }
 
 @media screen and (max-width: 991px) {
