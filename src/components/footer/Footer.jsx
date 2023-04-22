@@ -3,8 +3,7 @@ import React from "react";
 import './footer.css'
 
 const Footer = () => {
-    return (
-        <footer className='footer'>
+    return (<footer className='footer'>
             <div className="footer__container container grid">
                 <h2 className="footer__title">Oleinik</h2>
 
@@ -42,13 +41,15 @@ const Footer = () => {
                 </ul>
 
                 <div className="footer__social">
-                    <a href="https://www.instagram.com/__doleinik/" className='footer__social-link'>
+                    <a href="https://www.instagram.com/__doleinik/" target='_blank' rel="noreferrer"
+                       className='footer__social-link'>
                         <i className='bx bxl-instagram'></i>
                     </a>
-                    <a href="https://t.me/doleinik" className='footer__social-link'>
+                    <a href="https://t.me/doleinik" className='footer__social-link' target='_blank' rel="noreferrer">
                         <i className='bx bxl-telegram'></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/dima-oleinik-7246131ab/" className='footer__social-link'>
+                    <a href="https://www.linkedin.com/in/dima-oleinik-7246131ab/" target='_blank' rel="noreferrer"
+                       className='footer__social-link'>
                         <i className='bx bxl-linkedin'></i>
                     </a>
                 </div>
@@ -56,8 +57,7 @@ const Footer = () => {
                     &#169; Doleinik. All rights reserved
                 </span>
             </div>
-        </footer>
-    )
+        </footer>)
 }
 
 export default Footer
