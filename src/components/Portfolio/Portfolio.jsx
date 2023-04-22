@@ -99,8 +99,8 @@ const Portfolio = () => {
                                     <h3 className='portfolio__modal-technologies'>List of technologies:</h3>
 
                                     <ul className='portfolio__modal-list'>
-                                        {item.categories.map(category => (
-                                            <li className="portfolio__modal-item">
+                                        {item.categories.map((category, index) => (
+                                            <li className="portfolio__modal-item" key={index}>
                                                 <i className="uil uil-check-circle portfolio__modal-icon"></i>
                                                 <p className="portfolio__modal-info">
                                                     {category}

@@ -1,12 +1,12 @@
-import React from "react";
 import './about.css';
 import AboutImg from '../../assets/about.jpg';
 import CV from '../../assets/CV-Dima-Oleinik.pdf'
 import Info from "./info";
 
+
 const About = () => {
-    return (
-        <section className="about section" id='about'>
+    return (<section className="about section swipe-bottom" id='about'>
+        <div className='gsap'>
             <h2 className="section__title">
                 About me
             </h2>
@@ -21,14 +21,17 @@ const About = () => {
                 <div className="about__data">
                     <Info/>
 
-                    <p className="about__description">
+                    <p className="about__description test">
                         My name is Dima, I'm 24 years old.
-                        Very purposeful and in a short time, thanks to his personal and professional qualities, he was
-                        able to achieve a good result, and I strive to learn more and more new technologies and develop
+                        Very purposeful and in a short time, thanks to his personal and professional qualities,
+                        he
+                        was
+                        able to achieve a good result, and I strive to learn more and more new technologies and
+                        develop
                         in this.
                     </p>
 
-                    <a download='' href={CV} className="button button--flex">
+                    <a download href={CV} className="button button--flex">
                         Download CV
                         <svg
                             className="button__icon"
@@ -58,8 +61,8 @@ const About = () => {
                     </a>
                 </div>
             </div>
-        </section>
-    )
+        </div>
+    </section>)
 }
 
 export default About;

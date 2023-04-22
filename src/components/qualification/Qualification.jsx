@@ -35,6 +35,14 @@ const Qualification = () => {
             position: 'Team Lead/Tech Lead Wordpress developer',
             location: 'Ukraine, Nikolaev',
             dataStart: '07.2022',
+            dataEnd: '03.2023',
+        },
+        {
+            id: 5,
+            company: 'Bambook',
+            position: 'Middle Wordpress developer',
+            location: 'Ukraine, Lviv',
+            dataStart: '03.2023',
             dataEnd: 'Present',
         }
     ];

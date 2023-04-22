@@ -131,8 +131,7 @@ h3.portfolio__title {
 }
 
 .portfolio__modal-item {
-    width: 100%;
-    max-width: calc(33% - 20px);
+    width: fit-content;
     display: flex;
     gap: 5px;
 }

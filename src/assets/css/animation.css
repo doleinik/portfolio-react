@@ -1,0 +1,56 @@
+:root {
+    --esea-out: 1.9s ease-out;
+}
+
+.swipe-top {
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: var(--esea-out);
+}
+
+.loaded .swipe-top {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.swipe-bottom {
+    transform: translateY(100%);
+    opacity: 0;
+    transition: var(--esea-out);
+}
+
+.loaded .swipe-bottom {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.swipe-left {
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: var(--esea-out);
+}
+
+.loaded .swipe-left {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.swipe-right {
+    transform: translateX(100%);
+    opacity: 0;
+    transition: var(--esea-out);
+}
+
+.loaded .swipe-right {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.opacity {
+    opacity: 0;
+    transition: var(--esea-out) 1s;
+}
+
+.loaded .opacity {
+    opacity: 1;
+}

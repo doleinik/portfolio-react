@@ -14,6 +14,10 @@ const frontend = [
         level: 'Advanced'
     },
     {
+        name: 'Gsap',
+        level: 'Advanced'
+    },
+    {
         name: 'Git',
         level: 'Advanced'
     },
