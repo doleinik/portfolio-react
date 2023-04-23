@@ -6,7 +6,7 @@ const Header = () => {
 
     return (
         <header className='header '>
-            <nav className="nav container swipe-top">
+            <nav className="nav container">
                 <a href="/" className="nav__logo">
                     Oleinik
                 </a>
