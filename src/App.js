@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import './App.css';
 import './assets/css/animation.css';
 import Header from "./components/header/Header";
@@ -11,6 +11,14 @@ import Footer from "./components/footer/Footer";
 import Portfolio from "./components/Portfolio/Portfolio";
 
 const App = () => {
+    const spinner = document.querySelector('#spinner');
+    const body = document.querySelector('body');
+    if (spinner) {
+        setTimeout(() => {
+            spinner.style.display = 'none';
+            body.classList.add('loaded');
+        }, "1500");
+    }
     return (<>
         <Header/>
         <main>
