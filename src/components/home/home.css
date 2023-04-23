@@ -161,7 +161,7 @@
 
 @media screen and (max-width: 768px) {
     .home__content {
-        grid-template-columns: 20px 3fr;
+        grid-template-columns: 20px 3fr 20px;
         padding-top: 0.5rem;
     }
 

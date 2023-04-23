@@ -167,6 +167,10 @@ h3.portfolio__title {
         padding: 0 15px;
         margin: 0 auto;
     }
+
+    .portfolio__item img {
+        opacity: 0.40;
+    }
 }
 
 @media screen and (max-width: 991px) {
