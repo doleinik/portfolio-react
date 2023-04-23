@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import './App.css';
 import './assets/css/animation.css';
 import Header from "./components/header/Header";
@@ -11,19 +11,7 @@ import Footer from "./components/footer/Footer";
 import Portfolio from "./components/Portfolio/Portfolio";
 
 const App = () => {
-    const [loading, setLoading] = useState(true);
-    const spinner = document.querySelector('#spinner');
-    const body = document.querySelector('body');
-    if (spinner) {
-        window.addEventListener("load", (event) => {
-            setLoading(false);
-            setTimeout(() => {
-                spinner.style.display = 'none';
-                body.classList.add('loaded');
-            }, "1500");
-        });
-    }
-    return (!loading && (<>
+    return (<>
         <Header/>
         <main>
             <Home/>
@@ -34,7 +22,7 @@ const App = () => {
             <Contact/>
             <Footer/>
         </main>
-    </>));
+    </>);
 }
 
 export default App;
