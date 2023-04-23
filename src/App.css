@@ -72,6 +72,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body,
@@ -115,6 +116,14 @@ img {
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/
+
+.overflow {
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: 0!important;
+}
+
 .section {
     padding: 6rem 0 2rem;
 }
@@ -211,7 +220,7 @@ img {
 
 #spinner {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     display: inline-block;
     position: relative;
     overflow: hidden;

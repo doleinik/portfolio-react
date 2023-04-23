@@ -10,7 +10,7 @@
     <link type="image/x-icon" href="/favicon.png" rel="shortcut icon">
     <title>Portfolio | Dima Oleinik</title>
 </head>
-<body>
+<body class="overflow">
 <div id="spinner"></div>
 <div id="root"></div>
 
@@ -21,6 +21,7 @@
         setTimeout(() => {
             spinner.style.display = 'none';
             body.classList.add('loaded');
+            body.classList.remove('overflow');
         }, "1500");
     });
 </script>
