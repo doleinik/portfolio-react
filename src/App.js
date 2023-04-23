@@ -13,14 +13,12 @@ import Portfolio from "./components/Portfolio/Portfolio";
 const App = () => {
     const spinner = document.querySelector('#spinner');
     const body = document.querySelector('body');
-    if (spinner) {
-        useEffect(() => {
-            setTimeout(() => {
-                spinner.style.display = 'none';
-                body.classList.add('loaded');
-            }, "1500");
-        })
-    }
+    useEffect(() => {
+        setTimeout(() => {
+            spinner.style.display = 'none';
+            body.classList.add('loaded');
+        }, "1500");
+    })
     return (<>
         <Header/>
         <main>
