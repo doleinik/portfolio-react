@@ -93,7 +93,7 @@ const Contact = () => {
                                 cols='30'
                                 rows='10'
                                 className='contact__form-input'
-                                placeholder='Write your project'
+                                placeholder='Give me some ideas about your future project and we will reach out common goal successfully'
                             >
 
                             </textarea>
