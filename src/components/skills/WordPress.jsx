@@ -38,7 +38,7 @@ const wordpress = [
 const WordPress = () => {
     return (
         <div className='skills__content'>
-            <h3 className='skills__title'>Wordpress plugin</h3>
+            <h3 className='skills__title'>Wordpress plugins</h3>
 
             <div className="skills__box">
                 {wordpress.map((item, index) => (

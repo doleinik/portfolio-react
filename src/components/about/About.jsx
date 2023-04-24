@@ -22,13 +22,9 @@ const About = () => {
                     <Info/>
 
                     <p className="about__description test">
-                        My name is Dima, I'm 24 years old.
-                        Very purposeful and in a short time, thanks to his personal and professional qualities,
-                        he
-                        was
-                        able to achieve a good result, and I strive to learn more and more new technologies and
-                        develop
-                        in this.
+                        My name is Dima, I am 24 years old. Very goal-oriented and in a short time, thanks to my
+                        personal and professional qualities, I was able to achieve a good result, and I strive to master
+                        more and more new technologies and develop in this.
                     </p>
 
                     <a download href={CV} className="button button--flex">
