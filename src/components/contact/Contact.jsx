@@ -15,7 +15,7 @@ const Contact = () => {
     return (
         <section className='contact section' id='contact'>
             <h2 className='section__title'>Get in touch</h2>
-            <span className="section__subtitle">Contact Me</span>
+            <span className="section__subtitle">Give me some ideas about your future project and we will reach out common goal successfully</span>
 
             <div className="contact__container container grid">
                 <div className="contact__content">
@@ -73,7 +73,7 @@ const Contact = () => {
                                 Name
                             </label>
                             <input type="text" name='name' className='contact__form-input'
-                                   placeholder='Insert your name' required/>
+                                   placeholder='Your name' required/>
                         </div>
 
                         <div className="contact__form-div">
@@ -81,7 +81,7 @@ const Contact = () => {
                                 Mail
                             </label>
                             <input type="email" name='email' className='contact__form-input'
-                                   placeholder='Insert your email' required/>
+                                   placeholder='Your email' required/>
                         </div>
 
                         <div className="contact__form-div contact__form-area">
@@ -93,7 +93,7 @@ const Contact = () => {
                                 cols='30'
                                 rows='10'
                                 className='contact__form-input'
-                                placeholder='Give me some ideas about your future project and we will reach out common goal successfully'
+                                placeholder='Describe your task'
                             >
 
                             </textarea>
