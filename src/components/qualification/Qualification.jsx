@@ -43,6 +43,14 @@ const Qualification = () => {
             position: 'Middle Wordpress developer',
             location: 'Ukraine, Lviv',
             dataStart: '03.2023',
+            dataEnd: '07.2023',
+        },
+        {
+            id: 6,
+            company: 'Ninesquares',
+            position: 'Middle Wordpress developer',
+            location: 'Ukraine, Remote',
+            dataStart: '03.2023',
             dataEnd: 'Present',
         }
     ];

@@ -8,7 +8,7 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_nvfdw16', 'template_zdjazdn', form.current, '31c1rQsFp6c9-AxnV')
+        emailjs.sendForm('service_18ggcbv', 'template_eqb2osl', form.current, 'ojEYlH0TkA-xKuDjz')
         e.target.reset();
     };
 
@@ -28,7 +28,7 @@ const Contact = () => {
                             <i className="bx bx-envelope contact__cars-icon"></i>
 
                             <h3 className="contact__card-title">Email</h3>
-                            <span className="contact__card-data">devdoleinik@gmail.com</span>
+                            <span className="contact__card-data">doleinika@gmail.com</span>
 
                             <a href="mailto:devdoleinik@gmail.com" className="contact__button">
                                 Write me
@@ -95,7 +95,6 @@ const Contact = () => {
                                 className='contact__form-input'
                                 placeholder='Describe me your project'
                             >
-
                             </textarea>
                         </div>
 

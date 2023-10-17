@@ -5,12 +5,34 @@ import brightech from '../../assets/brightech.jpg';
 import hedgehog from '../../assets/hedgehog.jpg';
 import tilladelse from '../../assets/tilladelse.jpg';
 import truit from '../../assets/truit.jpg';
+import dentino from '../../assets/dentino.png';
+import brainwave from '../../assets/brainwave.png';
 
 
 const Portfolio = () => {
     const portfolioList = [
         {
             id: 1,
+            title: 'Dentino',
+            image: dentino,
+            categories: [
+                'WordPress', 'HTML/CSS', 'Scss/Sass', 'JavaScript', 'PHP', 'Gsap'
+            ],
+            description: 'A site for an IT company, during the development of which many technologies were used for animations. It turned out to be a very interesting and animated site.',
+            link: 'https://dentino.com.ua/'
+        },
+        {
+            id: 2,
+            title: 'BrainWave',
+            image: brainwave,
+            categories: [
+                'WordPress', 'HTML/CSS', 'Scss/Sass', 'JavaScript', 'PHP', 'Gsap'
+            ],
+            description: 'A site for an IT company, during the development of which many technologies were used for animations. It turned out to be a very interesting and animated site.',
+            link: 'https://braniw.000webhostapp.com/'
+        },
+        {
+            id: 3,
             title: 'Brightech',
             image: brightech,
             categories: [
@@ -20,7 +42,7 @@ const Portfolio = () => {
             link: 'https://brightech.it'
         },
         {
-            id: 2,
+            id: 4,
             title: 'HedgeHog',
             image: hedgehog,
             categories: [
@@ -30,7 +52,7 @@ const Portfolio = () => {
             link: 'https://hedgehog-agency.com/'
         },
         {
-            id: 3,
+            id: 5,
             title: 'TillaDelse',
             image: tilladelse,
             categories: [
@@ -40,7 +62,7 @@ const Portfolio = () => {
             link: 'https://tilladelsemarketingagency.com/'
         },
         {
-            id: 4,
+            id: 6,
             title: 'Truit',
             image: truit,
             categories: [
