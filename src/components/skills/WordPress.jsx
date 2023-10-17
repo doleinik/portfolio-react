@@ -31,7 +31,7 @@ const wordpress = [
     },
     {
         name: 'Woocommerce',
-        level: 'Intermediate'
+        level: 'Advanced'
     }
 ]
 

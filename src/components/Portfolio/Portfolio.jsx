@@ -18,7 +18,7 @@ const Portfolio = () => {
             categories: [
                 'WordPress', 'HTML/CSS', 'Scss/Sass', 'JavaScript', 'PHP', 'Gsap'
             ],
-            description: 'A site for an IT company, during the development of which many technologies were used for animations. It turned out to be a very interesting and animated site.',
+            description: 'Dentistry website from Ukraine.',
             link: 'https://dentino.com.ua/'
         },
         {
@@ -28,7 +28,7 @@ const Portfolio = () => {
             categories: [
                 'WordPress', 'HTML/CSS', 'Scss/Sass', 'JavaScript', 'PHP', 'Gsap'
             ],
-            description: 'A site for an IT company, during the development of which many technologies were used for animations. It turned out to be a very interesting and animated site.',
+            description: 'A site for an IT studio.',
             link: 'https://braniw.000webhostapp.com/'
         },
         {
@@ -38,7 +38,7 @@ const Portfolio = () => {
             categories: [
                 'WordPress', 'HTML/CSS', 'Scss/Sass', 'JavaScript', 'PHP', 'Three.js', 'Gsap'
             ],
-            description: 'A site for an IT company, during the development of which many technologies were used for animations. It turned out to be a very interesting and animated site.',
+            description: 'A site for an IT studio, during the development of which many technologies were used for animations. It turned out to be a very interesting and animated site.',
             link: 'https://brightech.it'
         },
         {
