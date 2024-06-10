@@ -8,12 +8,12 @@ import truit from '../../assets/truit.jpg';
 import dentino from '../../assets/dentino.png';
 // import brainwave from '../../assets/brainwave.png';
 import regional from '../../assets/regional.jpg';
-import grade from '../../assets/grade.png';
 
 
 const Portfolio = () => {
     const portfolioList = [
         {
+            id: 2,
             title: 'Regional Homes',
             image: regional,
             categories: [
@@ -23,15 +23,7 @@ const Portfolio = () => {
             link: 'https://regional-homes.com/'
         },
         {
-            title: 'Grade Agency',
-            image: grade,
-            categories: [
-                'WordPress', 'HTML/CSS', 'Scss/Sass', 'JavaScript', 'PHP', 'Gsap'
-            ],
-            description: 'The Grade team specializes in developing functional, aesthetic, and intuitive web solutions for your business. For over 2 years, we have been a reliable partner for our clients in the digital space.',
-            link: 'https://grade.agency'
-        },
-        {
+            id: 3,
             title: 'Brightech',
             image: brightech,
             categories: [
@@ -41,6 +33,7 @@ const Portfolio = () => {
             link: 'https://brightech.it'
         },
         {
+            id: 1,
             title: 'Dentino',
             image: dentino,
             categories: [
@@ -50,6 +43,7 @@ const Portfolio = () => {
             link: 'https://dentino.com.ua/'
         },
         {
+            id: 4,
             title: 'HedgeHog',
             image: hedgehog,
             categories: [
@@ -59,6 +53,7 @@ const Portfolio = () => {
             link: 'https://hedgehog-agency.com/'
         },
         {
+            id: 5,
             title: 'TillaDelse',
             image: tilladelse,
             categories: [
@@ -68,6 +63,7 @@ const Portfolio = () => {
             link: 'https://tilladelsemarketingagency.com/'
         },
         {
+            id: 6,
             title: 'Truit',
             image: truit,
             categories: [

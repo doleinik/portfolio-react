@@ -6,41 +6,13 @@ import hedgehog from '../../assets/hedgehog.jpg';
 import tilladelse from '../../assets/tilladelse.jpg';
 import truit from '../../assets/truit.jpg';
 import dentino from '../../assets/dentino.png';
-// import brainwave from '../../assets/brainwave.png';
-import regional from '../../assets/regional.jpg';
-import grade from '../../assets/grade.png';
+import brainwave from '../../assets/brainwave.png';
 
 
 const Portfolio = () => {
     const portfolioList = [
         {
-            title: 'Regional Homes',
-            image: regional,
-            categories: [
-                'WordPress', 'HTML/CSS', 'Scss/Sass', 'JavaScript', 'PHP', 'Gsap'
-            ],
-            description: 'Regional Homes is a leader in the South Carolina market and has been delighting its customers with incredible homes and gated communities for decades.',
-            link: 'https://regional-homes.com/'
-        },
-        {
-            title: 'Grade Agency',
-            image: grade,
-            categories: [
-                'WordPress', 'HTML/CSS', 'Scss/Sass', 'JavaScript', 'PHP', 'Gsap'
-            ],
-            description: 'The Grade team specializes in developing functional, aesthetic, and intuitive web solutions for your business. For over 2 years, we have been a reliable partner for our clients in the digital space.',
-            link: 'https://grade.agency'
-        },
-        {
-            title: 'Brightech',
-            image: brightech,
-            categories: [
-                'WordPress', 'HTML/CSS', 'Scss/Sass', 'JavaScript', 'PHP', 'Three.js', 'Gsap'
-            ],
-            description: 'A site for an IT studio, during the development of which many technologies were used for animations. It turned out to be a very interesting and animated site.',
-            link: 'https://brightech.it'
-        },
-        {
+            id: 1,
             title: 'Dentino',
             image: dentino,
             categories: [
@@ -50,6 +22,27 @@ const Portfolio = () => {
             link: 'https://dentino.com.ua/'
         },
         {
+            id: 2,
+            title: 'BrainWave',
+            image: brainwave,
+            categories: [
+                'WordPress', 'HTML/CSS', 'Scss/Sass', 'JavaScript', 'PHP', 'Gsap'
+            ],
+            description: 'A site for an IT studio.',
+            link: 'https://braniw.000webhostapp.com/'
+        },
+        {
+            id: 3,
+            title: 'Brightech',
+            image: brightech,
+            categories: [
+                'WordPress', 'HTML/CSS', 'Scss/Sass', 'JavaScript', 'PHP', 'Three.js', 'Gsap'
+            ],
+            description: 'A site for an IT studio, during the development of which many technologies were used for animations. It turned out to be a very interesting and animated site.',
+            link: 'https://brightech.it'
+        },
+        {
+            id: 4,
             title: 'HedgeHog',
             image: hedgehog,
             categories: [
@@ -59,6 +52,7 @@ const Portfolio = () => {
             link: 'https://hedgehog-agency.com/'
         },
         {
+            id: 5,
             title: 'TillaDelse',
             image: tilladelse,
             categories: [
@@ -68,6 +62,7 @@ const Portfolio = () => {
             link: 'https://tilladelsemarketingagency.com/'
         },
         {
+            id: 6,
             title: 'Truit',
             image: truit,
             categories: [
@@ -98,19 +93,19 @@ const Portfolio = () => {
                     {/*))}*/}
                 </ul>
 
-                <ul className="portfolio__list">    
-                    {portfolioList.map((item, key ) => (
-                        <li className='portfolio__item' key={key + 1}>
+                <ul className="portfolio__list">
+                    {portfolioList.map(item => (
+                        <li className='portfolio__item' key={item.id}>
                             <img src={item.image} alt=""/>
                             <div className='portfolio__item-info'>
                                 <h3 className="portfolio__title">{item.title}</h3>
-                                <span className="portfolio__button" onClick={() => toggleTab(key + 1)}>
+                                <span className="portfolio__button" onClick={() => toggleTab(item.id)}>
                                 View More
                                 <i className="uil-arrow-right portfolio__button-icon uil"></i>
                             </span>
                             </div>
                             <div
-                                className={toggleState === key + 1 ? 'portfolio__modal active-modal' : 'portfolio__modal'}>
+                                className={toggleState === item.id ? 'portfolio__modal active-modal' : 'portfolio__modal'}>
                                 <div className='portfolio__modal-content'>
                                     <i className="portfolio__modal-close uil uil-times"
                                        onClick={() => toggleTab(0)}></i>

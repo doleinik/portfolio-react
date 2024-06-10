@@ -17,7 +17,7 @@ const Contact = () => {
             <h2 className='section__title'>Get in touch</h2>
             <span className="section__subtitle">Give me some ideas about your future project and we will reach out common goal successfully</span>
 
-            <div className="grid contact__container container">
+            <div className="contact__container container grid">
                 <div className="contact__content">
                     {/*<h3 className="contact__title">*/}
                     {/*    Talk to me*/}
@@ -32,7 +32,7 @@ const Contact = () => {
 
                             <a href="mailto:devdoleinik@gmail.com" className="contact__button">
                                 Write me
-                                <i className="bx-right-arrow-alt bx contact__button-icon"></i>
+                                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                             </a>
                         </div>
 
@@ -44,7 +44,7 @@ const Contact = () => {
 
                             <a href="https://google.com" className="contact__button">
                                 Write me
-                                <i className="bx-right-arrow-alt bx contact__button-icon"></i>
+                                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                             </a>
                         </div>
 
@@ -54,9 +54,9 @@ const Contact = () => {
                             <h3 className="contact__card-title">LinkedIn</h3>
                             <span className="contact__card-data">Dima Oleinik</span>
 
-                            <a href="https://www.linkedin.com/in/doleinik/" className="contact__button">
+                            <a href="https://www.linkedin.com/in/dima-oleinik-7246131ab/" className="contact__button">
                                 Write me{' '}
-                                <i className="bx-right-arrow-alt bx contact__button-icon"></i>
+                                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                             </a>
                         </div>
                     </div>
@@ -84,7 +84,7 @@ const Contact = () => {
                                    placeholder='Your email' required/>
                         </div>
 
-                        <div className="contact__form-area contact__form-div">
+                        <div className="contact__form-div contact__form-area">
                             <label className="contact__form-tag">
                                 Project
                             </label>
@@ -98,7 +98,7 @@ const Contact = () => {
                             </textarea>
                         </div>
 
-                        <button className="button--flex button">
+                        <button className="button button--flex">
                             Send Message
                             <svg
                                 className="button__icon"

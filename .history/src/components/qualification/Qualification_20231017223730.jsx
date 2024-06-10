@@ -51,14 +51,6 @@ const Qualification = () => {
             position: 'Middle Wordpress developer',
             location: 'Ukraine, Remote',
             dataStart: '03.2023',
-            dataEnd: '12.2023',
-        },
-        {
-            id: 7,
-            company: '7Devs',
-            position: 'Middle Wordpress developer',
-            location: 'Ukraine, Remote',
-            dataStart: '11.2023',
             dataEnd: 'Present',
         }
     ];
@@ -104,7 +96,7 @@ const Qualification = () => {
             <span className="section__subtitle">
                 My personal journey
             </span>
-            <div className="container qualification__container">
+            <div className="qualification__container container">
                 <div className="qualification__tabs">
                     <div className={
                         toggleState === 1
@@ -112,7 +104,7 @@ const Qualification = () => {
                             : 'qualification__button button--flex'
                     }
                          onClick={() => toggleTab(1)}>
-                        <i className="qualification__icon uil uil-briefcase-alt"></i>
+                        <i className="uil uil-briefcase-alt qualification__icon"></i>
                         {' '}
                         Experience
                     </div>
@@ -123,7 +115,7 @@ const Qualification = () => {
                     }
                          onClick={() => toggleTab(2)}
                     >
-                        <i className="qualification__icon uil uil-graduation-cap"></i>
+                        <i className="uil uil-graduation-cap qualification__icon"></i>
                         {' '}
                         Education
                     </div>

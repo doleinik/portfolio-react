@@ -8,7 +8,6 @@ import truit from '../../assets/truit.jpg';
 import dentino from '../../assets/dentino.png';
 // import brainwave from '../../assets/brainwave.png';
 import regional from '../../assets/regional.jpg';
-import grade from '../../assets/grade.png';
 
 
 const Portfolio = () => {
@@ -21,15 +20,6 @@ const Portfolio = () => {
             ],
             description: 'Regional Homes is a leader in the South Carolina market and has been delighting its customers with incredible homes and gated communities for decades.',
             link: 'https://regional-homes.com/'
-        },
-        {
-            title: 'Grade Agency',
-            image: grade,
-            categories: [
-                'WordPress', 'HTML/CSS', 'Scss/Sass', 'JavaScript', 'PHP', 'Gsap'
-            ],
-            description: 'The Grade team specializes in developing functional, aesthetic, and intuitive web solutions for your business. For over 2 years, we have been a reliable partner for our clients in the digital space.',
-            link: 'https://grade.agency'
         },
         {
             title: 'Brightech',

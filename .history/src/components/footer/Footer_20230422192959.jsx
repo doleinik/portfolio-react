@@ -4,7 +4,7 @@ import './footer.css'
 
 const Footer = () => {
     return (<footer className='footer'>
-            <div className="grid container footer__container">
+            <div className="footer__container container grid">
                 <h2 className="footer__title">Oleinik</h2>
 
                 <ul className="footer__list">
@@ -48,7 +48,7 @@ const Footer = () => {
                     <a href="https://t.me/doleinik" className='footer__social-link' target='_blank' rel="noreferrer">
                         <i className='bx bxl-telegram'></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/doleinik/" target='_blank' rel="noreferrer"
+                    <a href="https://www.linkedin.com/in/dima-oleinik-7246131ab/" target='_blank' rel="noreferrer"
                        className='footer__social-link'>
                         <i className='bx bxl-linkedin'></i>
                     </a>

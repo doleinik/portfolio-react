@@ -54,7 +54,7 @@ const Qualification = () => {
             dataEnd: '12.2023',
         },
         {
-            id: 7,
+            id: 6,
             company: '7Devs',
             position: 'Middle Wordpress developer',
             location: 'Ukraine, Remote',
