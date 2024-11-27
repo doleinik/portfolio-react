@@ -5,7 +5,7 @@ import Info from "./info";
 
 
 const About = () => {
-    return (<section className="about section swipe-bottom" id='about'>
+    return (<section className="swipe-bottom about section" id='about'>
         <div className='gsap'>
             <h2 className="section__title">
                 About me
@@ -15,19 +15,19 @@ const About = () => {
                 My introduction
             </span>
 
-            <div className="about__container container grid">
+            <div className="grid about__container container">
                 <img src={AboutImg} alt="Me" className="about__img"/>
 
                 <div className="about__data">
                     <Info/>
 
                     <p className="about__description test">
-                        My name is Dima, I am 24 years old. Very goal-oriented and in a short time, thanks to my
+                        My name is Dima. Very goal-oriented and in a short time, thanks to my
                         personal and professional qualities, I was able to achieve a good result, and I strive to master
                         more and more new technologies and develop in this.
                     </p>
 
-                    <a download href={CV} className="button button--flex">
+                    {/* <a download href={CV} className="button--flex button">
                         Download CV
                         <svg
                             className="button__icon"
@@ -54,7 +54,7 @@ const About = () => {
                                 fill="var(--container-color)"
                             ></path>
                         </svg>
-                    </a>
+                    </a> */}
                 </div>
             </div>
         </div>

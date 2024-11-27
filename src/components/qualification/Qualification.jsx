@@ -59,7 +59,7 @@ const Qualification = () => {
             position: 'Middle Wordpress developer',
             location: 'Ukraine, Remote',
             dataStart: '11.2023',
-            dataEnd: 'Present',
+            dataEnd: '11.2024',
         }
     ];
     const education = [

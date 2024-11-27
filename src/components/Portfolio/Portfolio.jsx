@@ -6,9 +6,11 @@ import hedgehog from '../../assets/hedgehog.jpg';
 import tilladelse from '../../assets/tilladelse.jpg';
 import truit from '../../assets/truit.jpg';
 import dentino from '../../assets/dentino.png';
+import sushijo from '../../assets/sushijo.png';
 // import brainwave from '../../assets/brainwave.png';
 import regional from '../../assets/regional.jpg';
 import grade from '../../assets/grade.png';
+import getcracking from '../../assets/getcracking.png'; 
 
 
 const Portfolio = () => {
@@ -26,11 +28,20 @@ const Portfolio = () => {
             title: 'Grade Agency',
             image: grade,
             categories: [
-                'WordPress', 'HTML/CSS', 'Scss/Sass', 'JavaScript', 'PHP', 'Gsap'
+                'React', 'Next.js', 'Prisma', 'PostgreSQL', 'TypeScript', 'Gsap'
             ],
             description: 'The Grade team specializes in developing functional, aesthetic, and intuitive web solutions for your business. For over 2 years, we have been a reliable partner for our clients in the digital space.',
             link: 'https://grade.agency'
         },
+        {
+            title: 'Get Cracking',
+            image: getcracking,
+            categories: [
+                'WordPress', 'HTML/CSS', 'Tailwind', 'JavaScript', 'PHP'
+            ],
+            description: 'Egg Farmers of Ontario offers you recipes, cooking techniques and tips to simplify meal preparation.',
+            link: 'https://www.getcracking.ca'
+        }, 
         {
             title: 'Brightech',
             image: brightech,
@@ -48,6 +59,15 @@ const Portfolio = () => {
             ],
             description: 'Dentistry website from Ukraine.',
             link: 'https://dentino.com.ua/'
+        },
+        {
+            title: 'SushiJo',
+            link: 'https://sushijo.com/',
+            image: sushijo,
+            categories: [
+                 'JavaScript', 'PHP', 'WordPress','WooComerce', 'HTML/CSS', 'Tailwind'
+            ],
+            description: 'Sushi delivery Sushi Jo: Order sushi delivery in Prague.'
         },
         {
             title: 'HedgeHog',
