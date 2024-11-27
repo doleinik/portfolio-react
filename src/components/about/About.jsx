@@ -1,6 +1,6 @@
 import './about.css';
 import AboutImg from '../../assets/about.jpg';
-import CV from '../../assets/CV-Dima-Oleinik.pdf'
+// import CV from '../../assets/CV-Dima-Oleinik.pdf'
 import Info from "./info";
 
 
